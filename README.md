@@ -2,7 +2,7 @@ UniAutoBinder
 =============
 
 
-UnityでのInspectorで設定しているGameObject，TransformなどのComponent及びPrefabを
+UnityのInspectorで設定しているGameObject，TransformなどのComponent、Prefabを
 命名規則によって自動設定することができます。
 
 ## 導入手順
