@@ -9,8 +9,6 @@ namespace UniAutoBinder
 {	
 	public class SaveHook : AssetModificationProcessor
 	{
-		private static IAutoBinder _autoBinder = new DefaultAutoBinder();
-
 		// Save実行時に呼び出せれる
 		static string[] OnWillSaveAssets(string[] paths)
 		{
