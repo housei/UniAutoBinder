@@ -5,11 +5,11 @@ UniAutoBinder
 UnityのInspectorで設定しているGameObject，TransformなどのComponent、Prefabを
 命名規則によって自動設定することができます。
 
-## 導入手順
+### 導入手順
 Assets/UniAutoBinderフォルダーをプロジェクトにドラッグ＆ドロップ
 
 
-## 命名規則による自動設定
+### 命名規則による自動設定
 
 ```C#:Test.cs
 using UnityEngine;
@@ -51,7 +51,8 @@ public class Test : MonoBehaviour {
 	[AutoBind("dogPrefab")]
 	public GameObject _animalPrefab;
 
-	[SerializeField] private GameObject _test3Prefab;
+	[SerializeField] 
+	private GameObject _test3Prefab;
 
 	// 自動設定させたくない場合は IgnoreBind Attributeをつける
 	[IgnoreBind]
@@ -73,5 +74,5 @@ public class Test : MonoBehaviour {
 }
 
 ```
-# License
+### License
 [The MIT License (MIT)](https://github.com/housei/UniAutoBinder/blob/master/LICENSE "The MIT License (MIT)")
