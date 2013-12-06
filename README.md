@@ -11,7 +11,7 @@ Assets/UniAutoBinderフォルダーをプロジェクトにドラッグ＆ドロ
 
 ### 命名規則による自動設定
 
-``````csharp:Test.cs
+```csharp
 using UnityEngine;
 using System.Collections;
 using UniAutoBinder;
